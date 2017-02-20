@@ -322,9 +322,9 @@ open class CDAlertView: UIView {
     }
     
     public func textFieldBecomeFirstResponder() {
-        if !isTextFieldHidden {
+//        if !isTextFieldHidden {
             textField.becomeFirstResponder()
-        }
+//        }
     }
     
     public func textFieldResignFirstResponder() {
